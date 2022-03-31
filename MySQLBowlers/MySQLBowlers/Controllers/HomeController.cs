@@ -23,7 +23,7 @@ namespace MySQLBowlers.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("ViewBowlers");
         }
 
         public IActionResult ViewBowlers(int teamid, string sqlstr)

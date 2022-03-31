@@ -15,6 +15,7 @@ namespace MySQLBowlers.Models
         public string BowlerLastName { get; set; }
         [Required]
         public string BowlerFirstName { get; set; }
+        [MaxLength(1)]
         public string BowlerMiddleInit { get; set; }
         [Required]
         public string BowlerAddress { get; set; }
