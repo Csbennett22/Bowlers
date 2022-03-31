@@ -55,3 +55,13 @@ C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\obj\Debug\netco
 C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\obj\Debug\netcoreapp3.1\MySQLBowlers.dll
 C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\obj\Debug\netcoreapp3.1\MySQLBowlers.pdb
 C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\obj\Debug\netcoreapp3.1\MySQLBowlers.genruntimeconfig.cache
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewBowlers.cshtml.g.cs
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddBowler.cshtml.g.cs
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\obj\Debug\netcoreapp3.1\Razor\Views\Home\DeleteBowler.cshtml.g.cs
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\bin\Debug\netcoreapp3.1\MySQLBowlers.StaticWebAssets.xml
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\chris\Documents\IS413\Bowlers\MySQLBowlers\MySQLBowlers\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll

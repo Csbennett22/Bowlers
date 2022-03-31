@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+@model List<Bowler>
+
+
+<h1>View Bowlers</h1>
+<h2>@ViewBag.TeamName.TeamName</h2>
+<div class="row p-2">
+    <div class="col-2">
+        <a class="btn btn-block btn-outline-primary" asp-controller="Home" asp-action="AddBowler">Add Bowler</a>
+        <a class="btn btn-block btn-outline-primary" asp-route-teamid=0 asp-route-sqlstr="" asp-controller="Home" asp-action="ViewBowlers">Home</a>
+        <a class="text-center font-weight-bold mt-3 mb-2">Filter by Team:</a>
+        @foreach (Team t in ViewBag.Teams)
+        {
+            if (ViewBag.TeamName.TeamName == t.TeamName)
+            {
+                <a class="btn btn-block btn-outline-primary" asp-controller="Home" asp-action="ViewBowlers" asp-route-teamid="@t.TeamID">@t.TeamName</a>
+            }
+            else
+            {
+                <a class="btn btn-block btn-warning" asp-controller="Home" asp-action="ViewBowlers" asp-route-teamid="@t.TeamID">@t.TeamName</a>
+            }
+        }
+    </div>
+    <table class="table table-bordered table-striped col">
+        <thead class="font-weight-bold">
+            <tr>
+
+                <td>First Name</td>
+                <td>Middle Initial</td>
+                <td>Last Name</td>
+                <td>Address</td>
+                <td>City</td>
+                <td>State</td>
+                <td>Zip</td>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var b in Model)
+            {
+                <tr>
+                    <td>@b.BowlerFirstName</td>
+                    <td>@b.BowlerMiddleInit</td>
+                    <td>@b.BowlerLastName</td>
+                    <td>@b.BowlerAddress</td>
+                    <td>@b.BowlerCity</td>
+                    <td>@b.BowlerState</td>
+                    <td>@b.BowlerZip</td>
+
+                    <td><a asp-controller="Home" asp-action="EditBowler" asp-route-bowlerid="@b.BowlerID">Edit</a></td>
+                    <td><a asp-controller="Home" asp-action="DeleteBowler" asp-route-bowlerid="@b.BowlerID">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
